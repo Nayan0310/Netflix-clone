@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Martel Sans", sans-serif;
+}
+body, html{
+    background-color: #232323;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.649), rgba(0, 0, 0, 0.66)), url("assets/Image/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.nav-bar {
+    position: relative;
+    top: 2vh;
+    max-width: 75vw;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-bar img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.btns button {
+    color: white;
+    font-weight: 600;
+    width: 50%;
+    padding: 0.2rem 1rem 0.2rem 0.8rem;
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
+.btns button:first-child{
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-right: 10px;
+    width: 10em;
+}
+.nav-bar button:nth-child(2){
+    background-color: #E50914;
+    border: none;
+    width: 6em;
+}
+
+
+.box {
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    font-weight: 900;
+}
+
+.box span {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 1px;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form h3{
+    font-size: 1.05rem;
+}
+.text-btn{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 55%;
+    color: azure;
+    outline: 1px solid white ;
+    outline-offset: 2px;
+    padding: 0.8rem 1rem 0.8rem 0.5rem;
+    background-color: #18141272;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.text-btn button{
+    margin-left: 10px;
+    width: 30%;
+    cursor: pointer;
+    padding: 0.6rem 1rem 0.6rem 0.5rem;
+    border: 1px solid transparent;
+    background-color: #E50914;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.blankspace{
+    height:8px;
+}
+.first{
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.first div.vid-img{
+    width: 50%;
+    height: 100%;
+}
+.first h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.01px;
+}
+.vid-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid-img img{
+    position: relative;
+    z-index: 10;
+    height: 80%; 
+}
+.vid-img video{
+    position: absolute;
+    height: 45%;
+    top: 25.2%;
+}
+.first video.special{
+
+    height: 38%;
+    top: 17%;
+}
+.first div.h-p{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column; 
+}
+div.h-p h1{
+    width: 80%;
+    line-height: 1.4;
+    text-align: left;
+}
+div.h-p p{
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.faqs{
+    background-color: #000000;
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.faqs h1{
+    position: relative;
+    top: 1em;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+}
+.faq-start{
+    position: relative;
+    height: 80%;
+    top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq{
+    background-color: #262626;
+    position: relative;
+    cursor: pointer;
+    width: 80%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 0.6rem;
+    padding: 0.8rem
+}
+.faq:hover{
+    background-color: #404040;
+}
+.faq p{
+    display: none;
+    font-size: 3rem;
+}
+.faq span{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.faqs div.para{
+    position: relative;
+    display: none;
+    top: 0;
+    width: 80%;
+    margin: auto;
+    padding: 0.2rem 0.6rem 0.2rem 1rem;
+    font-size: 1.1rem;
+    background-color: #262626;
+    color: #FFFFFF;
+}
+.faqs form{
+position: relative;    
+height: 10%;
+    top: 90%;
+}
+.faqs form h3{
+    color: #FFFFFF;
+}
+.faqs form .text-btn{
+    width: 50%;
+}
